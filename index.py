@@ -28,4 +28,7 @@ class Person:
         self.name = name
         self.age = age
 
-P =Person("john Doe")        
+P =Person("john Doe")    
+
+
+print(P.name)
