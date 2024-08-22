@@ -23,3 +23,9 @@
 # # g.close()
 # h = open("example2.txt","r")
 # print(h.read())
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+P =Person("john Doe")        
